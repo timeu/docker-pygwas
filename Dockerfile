@@ -1,7 +1,7 @@
 # Dockerfile for PyGWAS
 # Version 0.1
 
-FROM timeu/gwas_base 
+FROM timeu/docker-gwas-base 
 MAINTAINER Uemit Seren <uemit.seren@gmail.com>
 
 VOLUME ['/DATA']
