@@ -8,7 +8,7 @@ VOLUME ['/DATA']
 
 WORKDIR /app
 
-RUN /env/bin/pip install PyGWAS>=0.1.10 
+RUN /env/bin/pip install PyGWAS>=1.0.2 
 
 CMD ["-h"]
 
